@@ -18,12 +18,11 @@ apply plugin: 'idea'
 apply plugin: 'spring-boot' 
 apply plugin: 'io.spring.dependency-management'
 
-//deploy app to cloudfactoru with:
-//gradle cfPush
+//deploy app to cloudfactory with: gradle cfPush
 apply plugin: 'cloudfoundry'
 
 jar {
-    baseName = 'issue-manager'
+    baseName = 'spring-kickstart-template'
     version = '0.0.1-SNAPSHOT'
 }
 sourceCompatibility = 1.8
@@ -42,7 +41,7 @@ dependencies {
     compile 'org.springframework.boot:spring-boot-starter-thymeleaf'
     compile 'org.springframework.boot:spring-boot-starter-mobile'
 
-    //does not compile with newest build - using previous version
+    //does not compile with newest build - use previous version
 //    compile 'org.springframework.social:spring-social-github:1.0.0.M4'
     compile 'org.springframework.social:spring-social-github:1.0.0.BUILD-SNAPSHOT'
 
@@ -71,7 +70,7 @@ cloudfoundry {
     memory = 512
     instances = 1
 
-//      store credentials in gradle.properties
+//     please store credentials in gradle.properties : cfUsername,cfPassword,cfApp
 //    application = "your-appname"
 //    username = "your-username"
 //    password = "your-pass"
