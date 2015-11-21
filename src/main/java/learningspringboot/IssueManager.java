@@ -13,9 +13,6 @@ import java.util.List;
  */
 @Service
 public class IssueManager {
-//    String githubToken = "986f92d38e66959dcd811f4c6f5401651aa7f6be";
-//    String org = "spring-projects";
-//    String[] repos = new String[] { "spring-boot", "spring-boot-issues" };
 
     @Value("${app.issue.manager.githubtoken}")
     String githubToken;
