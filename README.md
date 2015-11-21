@@ -39,12 +39,11 @@ To add mobile support type there is script for bower, just type in console:
 ## Using development tools
 New spring-boot comes with development tools, improving faster redeploy.
 You App will automatically restart whenever files on the classpath change
-For static files, just change the file (ie. html file) and sacve it (eclipse, netbeans)
 
-For Intellij use make Project command
+For static files, just change the file (ie. html file) and sacve it (eclipse, netbeans).For Intellij use make Project command
 
-for more refer to:
+###Other useful links:
+
 http://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/#using-boot-devtools
 
-#Other useful links:
 https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-1.3-Release-Notes
