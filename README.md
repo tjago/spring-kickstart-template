@@ -7,15 +7,12 @@ Uses spring boot-strap with development tools for quick kickstart.
 
 ```
 # gradle assemble
-# gradlew assemble (or for windows)
 ```
 
 ### run
 
 ```
 # gradle runBoot
-# gradlew runBoot (or for windows)
-
 ```
 
 ### Cloud Foundry Support (hosted on Pivotal Web Services)
@@ -28,6 +25,12 @@ cfUsername=your_email_or_username
 cfPassword=pass
 cfApp=app-name
 ```
+
+Deploy project with:
+
+ ```
+ gradle cfPush
+ ```
 
 ## Mobile support
 To add mobile support type there is script for bower, just type in console:

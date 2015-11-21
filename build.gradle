@@ -45,7 +45,7 @@ dependencies {
 //    compile 'org.springframework.social:spring-social-github:1.0.0.M4'
     compile 'org.springframework.social:spring-social-github:1.0.0.BUILD-SNAPSHOT'
 
-    //production ready support
+    //Optional - production ready support if needed
     compile("org.springframework.boot:spring-boot-starter-actuator")
     compile("org.springframework.boot:spring-boot-starter-remote-shell")
 }
@@ -69,12 +69,9 @@ cloudfoundry {
     uri = "myapp.cfapps.io"
     memory = 512
     instances = 1
-
-//     please store credentials in gradle.properties : cfUsername,cfPassword,cfApp
-//    application = "your-appname"
-//    username = "your-username"
-//    password = "your-pass"
 //    env = [ "key": "value" ]
+
+//     please store credentials in gradle.properties file : cfUsername,cfPassword,cfApp
 }
 
 //uncomment for debug
