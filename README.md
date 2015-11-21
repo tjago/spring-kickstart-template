@@ -18,8 +18,7 @@ Uses spring boot-strap with development tools for quick kickstart.
 
 ```
 
-### Cloud Foundry Support
-### (hosted on Pivotal Web Services)
+### Cloud Foundry Support (hosted on Pivotal Web Services)
 First it is required to set up cloud foundry account on https://run.pivotal.io
 
 Then create file gradle.properties with your credentials as follows:
@@ -38,6 +37,14 @@ To add mobile support type there is script for bower, just type in console:
 ```
 
 ## Using development tools
-###New spring-boot comes with development tools, improving faster redeploy
+New spring-boot comes with development tools, improving faster redeploy.
+You App will automatically restart whenever files on the classpath change
 For static files, just change the file (ie. html file) and sacve it (eclipse, netbeans)
+
 For Intellij use make Project command
+
+for more refer to:
+http://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/#using-boot-devtools
+
+#Other useful links:
+https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-1.3-Release-Notes
