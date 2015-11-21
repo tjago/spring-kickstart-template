@@ -3,6 +3,13 @@ Code template created for rapid Application start and deployment
 
 Uses spring boot-strap with development tools for quick kickstart.
 
+###Supply GitHub Token
+put valid token for app to work with github-social
+
+```
+src/main/java/resources/application.properties
+```
+
 ### build
 
 ```
@@ -14,6 +21,9 @@ Uses spring boot-strap with development tools for quick kickstart.
 ```
 # gradle runBoot
 ```
+
+### navigate
+Open browser to address: http://localhost:8899
 
 ### Cloud Foundry Support (hosted on Pivotal Web Services)
 First it is required to set up cloud foundry account on https://run.pivotal.io
