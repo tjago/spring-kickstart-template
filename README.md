@@ -13,7 +13,7 @@ src/main/java/resources/application.properties
 ### build
 
 ```
-# gradle assemble
+# gradle build
 ```
 
 ### run
@@ -57,6 +57,10 @@ For static files, just change the file (ie. html file) and sacve it (eclipse, ne
 
 ###Other useful links:
 
+Spring Devtools doc
 http://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/#using-boot-devtools
+
+About spring LiveReload in Gradle and IntelliJ
+http://greggbolinger.com/spring-boot-live-reload-with-gradle-and-intellij-15/
 
 https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-1.3-Release-Notes
